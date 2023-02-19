@@ -1,0 +1,19 @@
+.reservation input {
+    border-radius: $input-border-radius-sm;
+}
+
+.head-line {
+    position: relative;
+    padding-left: 10px;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background-color: $primary;
+        top: 0;
+        left: 0;
+    }
+}

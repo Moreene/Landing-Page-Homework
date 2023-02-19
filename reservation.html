@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.css">
+    <title>好自在狗狗美容住宿</title>
+    <link rel="icon" href="./image/foot.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">
+                <i class="fas fa-paw text-white"></i>
+                <p class="d-inline fw-bold mb-0 ms-1">好自在<span class="shop-title">狗狗美容住宿</span></p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-3 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item nav-item-border mx-2">
+                        <a class="nav-link text-white pb-1 pb-lg-2" href="./index.html">首頁</a>
+                    </li>
+                    <li class="nav-item nav-item-border mx-2">
+                        <a class="nav-link text-white pb-1 pb-lg-2" href="#shop-info">服務介紹</a>
+                    </li>
+                    <li class="nav-item nav-item-border mx-2">
+                        <a class="nav-link text-white pb-1 pb-lg-2" href="#shop-charge">方案費用</a>
+                    </li>
+                    <li class="nav-item nav-item-border mx-2">
+                        <a class="nav-link text-white pb-1 pb-lg-2" href="./Question.html">常見問題</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="btn btn-outline-light btn-sm fw-bold mt-3 mt-lg-0" href="./reservation.html">搶先預約
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div style="background-image: url(./image/bg_paper.png);">
+        <div class="container py-5 text-center">
+            <span class="text-primary fs-5 fw-bold mb-2">COMFORT</span>
+            <h3 class="fs-2 fw-bold">一起自自在在</h3>
+        </div>
+    </div>
+
+    <!-- 預約表單 -->
+    <div class="reservation">
+        <div class="container p-4 py-md-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form action="" class="p-lg-5 shadow-lg needs-validation" novalidate>
+                        <h3 class="fs-4 fw-bold mb-3 head-line">選擇方案</h3>
+                        <ul class="list-unstyled row row-cols-1 row-cols-md-3 g-2 mb-4">
+                            <li class="col">
+                                <button class="btn btn-outline-primary text-center py-3 fw-bold w-100">
+                                    <p class="mb-0 d-inline d-md-block">基礎美容</p>
+                                    <p class="mb-0 d-inline">NT 3,500/月</p>
+                                </button>
+                            </li>
+                            <li class="col">
+                                <button class="btn btn-outline-primary text-center py-3 fw-bold w-100">
+                                    <p class="mb-0 d-inline d-md-block">進階美容</p>
+                                    <p class="mb-0 d-inline">NT 5,800/月</p>
+                                </button>
+                            </li>
+                            <li class="col">
+                                <button class="btn btn-outline-primary text-center py-3 fw-bold w-100 active">
+                                    <p class="mb-0 d-inline d-md-block">高級美容</p>
+                                    <p class="mb-0 d-inline ">NT 8,000/月</p>
+                                </button>
+                            </li>
+                        </ul>
+                        <h3 class="fs-4 fw-bold mb-3 head-line">填寫資料</h3>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firsttName" class="form-label">名字</label>
+                                <input type="text" class="form-control" id="firsttName" required>
+                                <div id="firsttName" class="invalid-feedback">
+                                    請填寫名字!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName" class="form-label">姓氏</label>
+                                <input type="text" class="form-control" id="lastName" required>
+                                <div id="lastName" class="invalid-feedback">
+                                    請填寫姓氏!
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="phoneNumber" class="form-label">手機號碼</label>
+                                <input type="tel" class="form-control" id="phoneNumber" required>
+                                <div id="phoneNumber" class="invalid-feedback">
+                                    請填寫手機號碼，以利聯絡!
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="email" class="form-label">電子郵件</label>
+                                <input type="email" class="form-control" id="email" placeholder="comfort@gmail.com">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="address" class="form-label">住址</label>
+                                <input type="text" class="form-control" id="address" required>
+                                <div id="address" class="invalid-feedback">
+                                    請填寫住址!
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="contact" class="form-label">方便聯繫時間</label>
+                                <select class="form-select" id="contact">
+                                    <option selected>9:00-10:30（平/假日）</option>
+                                    <option value="1">10:30-12:00（平/假日）</option>
+                                    <option value="2">13:00-15:00（平/假日）</option>
+                                    <option value="3">15:00-18:00（平/假日）</option>
+                                    <option value="4">18:00-21:00（假日）</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="petName" class="form-label">寵物姓名</label>
+                                <input type="text" class="form-control" id="petName" required>
+                                <div id="petName" class="invalid-feedback">
+                                    請填寫毛孩的名字~
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <p class="mb-2">寵物體重</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="smallSize" value="option1" required>
+                                    <label class="form-check-label" for="smallSize">15kg以下</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="mediumSize" value="option2" required>
+                                    <label class="form-check-label" for="mediumSize">15~25kg</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="largeSize" value="option2" required>
+                                    <label class="form-check-label" for="largeSize">25kg~30kg</label>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-5">
+                                <label for="remark" class="form-label">備註說明</label>
+                                <br>
+                                <textarea id="remark" class="form-control" rows="3"></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#messageModal">
+                                提交表單
+                            </button>
+                            <div class="modal fade" id="messageModal" tabindex="-1" aria-labelledby="messageModal" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      請填寫詳細資料後再送出表單，謝謝!
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 其他協助 -->
+    <div id="shop-help" class="shop-help bg-light">
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold mb-4">需要其他協助嗎？</h2>
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8">
+                    <ul class="list-unstyled row align-items-center g-3 flex-column flex-md-row">
+                        <li class="col">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <a href="#" class="text-decoration-none fs-5 stretched-link">
+                                        <i class="bi bi-telephone-fill me-2"></i>
+                                        <span>07-123-456</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <a href="#" class="text-decoration-none fs-5 stretched-link">
+                                        <i class="fab fa-facebook-f me-2"></i>
+                                        <span>好自在</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <a href="#" class="text-decoration-none fs-5 stretched-link">
+                                        <i class="fas fa-question me-2"></i>
+                                        <span>常見問題</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 表尾 -->
+    <div class="footer py-3 text-center" style="background-color: #ab296a;">
+        <p class="mb-0 text-white">Copyright © 2023 好自在.All rights reserved.</p>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

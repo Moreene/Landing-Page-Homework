@@ -1,0 +1,17 @@
+.shop-help {
+    .card {
+        i {
+            color: #e6adb1;
+        }
+
+        span {
+            color: black;
+        }
+
+        &:hover{
+            i{
+                color:#ab296a;
+            }
+        }
+    }
+}
